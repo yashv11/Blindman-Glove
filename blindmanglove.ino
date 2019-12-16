@@ -34,6 +34,11 @@ if(dist<100)
 digitalWrite(motor,HIGH);
 digitalWrite(buzz,HIGH); 
 }
+else if(dist>=100 && dist<=200
+{
+digitalWrite(motor,LOW);
+digitalWrite(buzz,HIGH); 
+} 
 else
 {
 digitalWrite(motor,LOW);
